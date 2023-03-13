@@ -36,7 +36,7 @@ const Work = () => {
               <img className="group-hover:scale-125 transition-all duration-500" src={Img1} alt=""/>
               {/*pretitle*/}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">React Website</span>
+                <span className="text-gradient">E-commerce Website</span>
                 </div>
               {/*title*/}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
