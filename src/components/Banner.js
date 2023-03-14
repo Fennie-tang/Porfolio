@@ -83,9 +83,9 @@ const Banner = () => {
               <a href="https://github.com/Fennie-tang">
                 <FaGithub />
               </a>
-              <a href="#">
+              {/* <a href="#">
                 <FaDribbble />
-              </a>
+              </a> */}
             </motion.div>
           </div>
           {/*image*/}
