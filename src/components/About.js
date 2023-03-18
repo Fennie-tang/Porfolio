@@ -59,7 +59,7 @@ const About = () => {
               <a href="mailto:fennie1996@gmail.com">
               <button className="btn btn-lg">Contact Me</button>
               </a>
-              <a href="#" className="text-gradient btn-link">
+              <a href="https://drive.google.com/file/d/1VNiAahlcdRbHg_2oGMBvUiiYchF55mgc/view?usp=share_link" className="text-gradient btn-link">
                 My Portfolio
               </a>
             </div>
