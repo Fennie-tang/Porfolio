@@ -24,8 +24,8 @@ const Work = () => {
               <h2 className="h2 leading-tight text-accent">My Latest <br/>
                Work.
                </h2>
-               <p className="max-w-sm mb-16">This project is the Nike Story
-               </p>
+               {/* <p className="max-w-sm mb-16">This project is the Nike Story
+               </p> */}
                <button className="btn btn-sm">View all Projects</button>
             </div>
             {/*img*/}
@@ -33,7 +33,7 @@ const Work = () => {
               {/*overlay*/}
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all  duration-300"></div>
               {/*img*/}
-              <img className="group-hover:scale-125 transition-all duration-500" src={Img1} alt=""/>
+              <img className="group-hover:scale-125 transition-all duration-500 h-96 w-full" src={Img1} alt=""/>
               {/*pretitle*/}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
                 <span className="text-gradient">React Website</span>
@@ -56,7 +56,7 @@ const Work = () => {
               {/*overlay*/}
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all  duration-300"></div>
               {/*img*/}
-              <img className="group-hover:scale-125 transition-all duration-500" src={Img2} alt=""/>
+              <img className="group-hover:scale-125 transition-all duration-500 h-96 w-full" src={Img2} alt=""/>
               {/*pretitle*/}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
                 <span className="text-gradient">E-commerce</span>
@@ -70,14 +70,14 @@ const Work = () => {
               {/*overlay*/}
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all  duration-300"></div>
               {/*img*/}
-              <img className="group-hover:scale-125 transition-all duration-500" src={Img3} alt=""/>
+              <img className="group-hover:scale-125 transition-all duration-500 h-96 w-full" src={Img3} alt=""/>
               {/*pretitle*/}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">React Website</span>
+                <span className="text-gradient">Booking Website</span>
                 </div>
               {/*title*/}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3x1 text-white">The Nike Story</span>
+                <span className="text-3x1 text-white">Sling Air</span>
               </div>
             </div>
           </motion.div>

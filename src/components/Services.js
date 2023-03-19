@@ -18,11 +18,13 @@ const services = [
   },
   {
     name: "Problem Solving",
-    description: "Determining the cause of the problem; identifying, prioritizing, and selecting alternatives for a solution; and implementing a solution.",
+    description:
+      "Determining the cause of the problem; identifying, prioritizing, and selecting alternatives for a solution; and implementing a solution.",
   },
   {
     name: "Computer Literacy",
-    description: "Knowledge and ability to utilize computers and related technology efficiently.",
+    description:
+      "Knowledge and ability to utilize computers and related technology efficiently.",
   },
 ];
 
@@ -45,7 +47,7 @@ const Services = () => {
               help a company create a great user experience.
             </h3>
             <a href="https://github.com/Fennie-tang">
-            <button className="btn btn-sm">See my work</button>
+              <button className="btn btn-sm">See my work</button>
             </a>
           </motion.div>
           {/*services*/}
@@ -75,7 +77,7 @@ const Services = () => {
                       </p>
                     </div>
                     <div className="flex flex-col flex-1 items-end">
-                      <a
+                      {/* <a
                         href="#"
                         className="btn w-9 h-9 mb-[42px] flex justify-center items-center"
                       >
@@ -83,7 +85,7 @@ const Services = () => {
                       </a>
                       <a href="#" className="text-gradient text-sm">
                         {link}
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 );
