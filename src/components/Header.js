@@ -11,7 +11,9 @@ const Header = () => {
             <img src={Logo} alt="" />
           </a>
           {/*button*/}
+          <a href="mailto:fennie1996@gmail.com">
           <button className="btn btn-sm">Work with me</button>
+          </a>
         </div>
       </div>
     </header>
