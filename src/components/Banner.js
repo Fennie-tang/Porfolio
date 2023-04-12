@@ -2,7 +2,7 @@ import React from "react";
 //images
 import Image from "../assets/me.png";
 //icons
-import { FaGithub, FaLinkedin, FaDribbble } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 //type animation
 import { TypeAnimation } from "react-type-animation";
 //motion
@@ -13,7 +13,7 @@ import { fadeIn } from "../variants";
 const Banner = () => {
   return (
     <section
-      className="min-h-[85vh] lg:min-h[78vh] flex items-center"
+      className="min-h-[80vh] lg:min-h[79vh] flex items-center"
       id="home"
     >
       <div className="container mx-auto">
@@ -65,9 +65,12 @@ const Banner = () => {
               className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
             >
               <a href="mailto:fennie1996@gmail.com">
-              <button className="btn btn-lg">Contact me</button>
+                <button className="btn btn-lg">Contact me</button>
               </a>
-              <a href="https://drive.google.com/file/d/1VNiAahlcdRbHg_2oGMBvUiiYchF55mgc/view?usp=share_link" className="text-gradient btn-link">
+              <a
+                href="https://drive.google.com/file/d/1VNiAahlcdRbHg_2oGMBvUiiYchF55mgc/view?usp=share_link"
+                className="text-gradient btn-link"
+              >
                 My Portfolio
               </a>
             </motion.div>
@@ -82,15 +85,13 @@ const Banner = () => {
               <a href="https://www.linkedin.com/in/fennie-tang/">
                 <FaLinkedin />
               </a>
+
               <a href="https://github.com/Fennie-tang">
                 <FaGithub />
               </a>
-              {/* <a href="#">
-                <FaDribbble />
-              </a> */}
             </motion.div>
           </div>
-          {/*image*/}
+
           <motion.div
             variants={fadeIn("down", 0.5)}
             initial="hidden"
